@@ -1,0 +1,151 @@
+body {
+  font-family: "News Cycle", sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+body {
+  font-family: "News Cycle", sans-serif;
+  font-size: 16px;
+  background: #f5f5f5;
+  display: inline-block;
+  overflow: visible;
+}
+
+.container {
+  display: inline-block;
+  height: 800px;
+}
+
+h1 {
+  color: #0974b3;
+  margin-block-end: 10px;
+}
+.date {
+  margin-bottom: 10px;
+  margin-top: -10px;
+  color: #666;
+}
+article {
+  background: #ffffff;
+  width: 400px;
+  height: 700px;
+  margin: 10px;
+  transition: transform 0.3s;
+  border-top: 4px solid #777;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 180px;
+}
+article:hover {
+  transform: translateY(-5px);
+  border-top: 4px solid #0974b3;
+}
+
+.content {
+  margin: 20px;
+  height: 400px;
+  overflow: visible;
+}
+.content img {
+  float: left;
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+.zoom-img {
+  height: 150px;
+  width: 150px;
+}
+
+article:nth-of-type(1) {
+  float: left;
+}
+
+article:nth-of-type(2) {
+  float: right;
+}
+article:nth-of-type(3) {
+  float: left;
+  height: 680px;
+}
+
+article:nth-of-type(3) .btn {
+  width: 280px;
+  height: 70px;
+  background: #0974b3;
+  border-radius: 10px 0 10px 0;
+  margin-left: 11%;
+  display: flex;
+  align-items: center;
+}
+article:nth-of-type(3) .btn:hover {
+  cursor: pointer;
+  background: #085b8b;
+}
+
+.avatar {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background: rgb(0, 0, 0);
+  transition: 0.3s ease;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 110px;
+  bottom: 0;
+  right: 100px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.avatar:hover .overlay {
+  opacity: 1;
+}
+.avatar:hover {
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.btn {
+  width: 280px;
+  height: 70px;
+  background: #0974b3;
+  border-radius: 10px 0 10px 0;
+  margin-left: 11%;
+  display: flex;
+  align-items: center;
+}
+.btn a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin-left: 110px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #085b8b;
+}
